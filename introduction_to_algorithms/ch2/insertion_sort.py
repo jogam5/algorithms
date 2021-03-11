@@ -12,7 +12,7 @@
     to the previous element before i.
     A while loop is used to check if the Key is lower than the previous
     element of the list. As long as this condition is fulfilled (and
-    the auxiliary variable 'j' is greater or equal than zero, first we
+    the auxiliary variable 'j' is greater or equal than zero) first we
     move to the right the element to the left of the Key and second we
     move to the left the Key. During this while loop, the 'j' variable is
     decreased.
