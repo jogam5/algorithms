@@ -72,6 +72,7 @@ def addZeros(x, y):
         delta = abs(len(x)-len(y))
         x = delta*"0"+x
     return x, y
+
 """
     Karatsuba(int x, int y)
     --> return (int) x*y
@@ -119,5 +120,6 @@ def Karatsuba(x, y):
 
         return pow(10,n)*firstTerm + pow(10,nHalf)*(secondTerm - firstTerm - thirdTerm) + thirdTerm
 
-print(RecursiveMult(5678, 1234))
-print(Karatsuba(5678, 1234))
+if __name__ == '__main__':
+    print(RecursiveMult(5678, 1234))
+    print(Karatsuba(12345, 6789))
