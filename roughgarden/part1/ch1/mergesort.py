@@ -74,6 +74,14 @@ def Merge(A, B):
     Things I did well:
     1. Identifying the base case in the recursive part of MergeSort
     2. Explicitly dividing the solution into three parts
+
+    --> How many levels does this recursion tree have, as a function of
+    the length N of the input array?
+    Answer: log(N).
+    Insight: the input size decreases by a factor of 2 with each level
+    of the recursion. The number of levels of recursion required is 
+    equivalent to the number of times needed to divide N by 2 before
+    getting a number that is at most 1.
 """
 
 def MergeSort(array):
